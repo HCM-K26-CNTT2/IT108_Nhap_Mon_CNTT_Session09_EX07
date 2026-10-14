@@ -1,0 +1,48 @@
+﻿Bài 7: Gỡ Lỗi Trang Hướng Dẫn Nộp Bài Của Giảng Viên 
+
+
+Phần 1: Phân tích lỗi
+
+
+1.
+Lỗi 1: thiếu khoảng cách sau ###
+Lỗi 2: đường link github.com thiếu https:// 
+Lỗi 3: list thiếu khoảng cách sau dấu -
+Lỗi 4: **HNKS25CNTT1_IT101_Session08 thiếu 1 cặp dấu ** thì nó mới đc in đậm
+Lỗi 5: * Nộp muộn sẽ bị trừ 50% điểm ** để trong hai dấu khác nhau, phải để dấu chung một là cặp *...* hoặc **....**
+
+
+2.
+###Lưu ý quan trọng: Không biến thành thẻ Tiêu đề cấp 3 mà hiển thị nguyên xi chuỗi ký tự thô ###Lưu ý quan trọng thành văn bản thường.
+[GitHub](github.com): Trình duyệt sẽ hiểu ầm đây là đường dẫn tương đối trong nội bộ trang web thay vì dẫn sang trang web ngoài, dẫn đến link bị lỗi 404.
+-Bước 1...: Không nhận diện được danh sách, các dòng sẽ không thụt lề và không tạo thành danh sách dạng chấm tròn mà dính thành văn bản thường.
+**HNKS25CNTT1_IT101_Session08: Toàn bộ đoạn chữ phía sau sẽ không được in đậm, đồng thời dấu ** bị lộ ra ngoài màn hình.
+*Nộp muộn sẽ bị trừ 50% điểm**: Markdown sẽ không hiểu cú pháp nên không in nghiêng hay in đậm được, hiển thị luôn các ký tự * và ** trên giao diện.
+
+
+
+
+
+
+Phần 2: Sửa lỗi
+
+
+3.
+## Hướng Dẫn Nộp Bài Tập - Session 08
+
+
+### Lưu ý quan trong
+
+
+Các bước nộp bài:
+- Bước 1: Tạo tài khoản GitHub tại [GitHub](https://github.com)
+- Bước 2: Tạo repository mới đặt tên theo định dạng **HNKS25CNTT1_IT101_Session08**
+- Bước 3: Upload file .md của bài làm lên repository
+- Bước 4: Copy đường dẫn và nộp lên Portal
+
+
+> Deadline: Chủ nhật 23:59 - * Nộp muộn sẽ bị trừ 50% điểm *
+
+
+4.
+Nếu sinh viên paste đường link GitHub mà quên gõ https:// ở đầu thì trình duyệt sẽ hiểu ầm đây là đường dẫn tương đối trong nội bộ trang web thay vì dẫn sang trang web ngoài, dẫn đến link bị lỗi 404.
